@@ -1,0 +1,25 @@
+[
+    {"date":"2020年10月27日","url":"20201027001","label":"プレスリリース","title":"第一回株主総会実施のお知らせ","thumb":"/img/news_honsya.png",
+        "contents":[
+            {"name":"Report20201027001"}
+        ]
+    },
+    {"date":"2020年10月4日","url":"20201004001","label":"プレスリリース","title":"ラブラブあくあマリンシオン号の進水式を実施","thumb":"/img/news_ams.png?1030",
+        "contents":[
+            {"name":"npImage","data":{"thumb":"/img/news_ams.png?1030"}},
+            {"name":"Report20201004001"}
+        ]
+    },
+    {"date":"2020年1月21日","url":"20200121001","label":"プレスリリース","title":"天空アクアラインの第二フロアがオープン！","thumb":"/img/news_tenku.png?1030",
+        "contents":[
+            {"name":"npImage","data":{"thumb":"/img/news_tenku.png?1030"}},
+            {"name":"Report20200121001"}
+        ]
+    },
+    {"date":"2020年1月20日","url":"20200120001","label":"プレスリリース","title":"ホロ村を一望できる天空アクアラインがオープン！","thumb":"/img/news_aqualine.png?1030",
+        "contents":[
+            {"name":"npImage","data":{"thumb":"/img/news_aqualine.png?1030"}},
+            {"name":"Report20200120001"}
+        ]
+    }
+]
