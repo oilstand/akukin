@@ -40,37 +40,8 @@
     line-height:60px;
     font-weight:400;
 }
-section h2, .recruit-visual h2 {
+.recruit-visual h2 {
     margin: 16px 0;
-}
-
-section {
-    text-align:center;
-    padding: 16px;
-}
-section h2 {
-    margin: 16px 0;
-}
-
-section p {
-    margin: 16px;
-}
-
-.press_label {
-    color:white;
-    font-weight:300;
-    background-color:gray;
-    padding: 0 16px;
-}
-.news_head {
-    display:inline-block;
-    width:40%;
-    text-align:right;
-}
-.news_title {
-    display:inline-block;
-    margin-left:5%;
-    width:55%;
 }
 
 </style>

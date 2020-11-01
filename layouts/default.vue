@@ -24,6 +24,7 @@
                     <li><router-link to="/works">実績</router-link></li>
                     <li><router-link to="/company">会社情報</router-link></li>
                     <li><router-link to="/recruit">採用情報</router-link></li>
+                    <li class="sp-only"><router-link to="/brandresource">ブランドリソース</router-link></li>
                 </ul>
             </div>
         </div>
@@ -41,6 +42,7 @@
                 <li><router-link to="/recruit">採用情報</router-link></li>
                 <li><a target="_blank" href="https://twitter.com/minatoaqua">Twitter</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg">YouTube</a></li>
+                <li><router-link to="/brandresource">ブランドリソース</router-link></li>
             </ul>
             <p>当サイトは非公式・非公認のネタサイトです。公式への問い合わせ等はご遠慮ください。</p>
         </div>
@@ -193,6 +195,9 @@ header h1 span {
     footer ul li {
         height:4em;
     }
+    footer ul li {
+        width:25%;
+    }
 }
 @media screen and (min-width:960px) {
     header {
@@ -224,12 +229,18 @@ header h1 span {
     .right-menu_label, .right-menu_button {
         display:none;
     }
+    .sp-only {
+        display:none;
+    }
     footer {
         margin-top: 80px;
         padding: 20px;
     }
     footer ul li {
         height:80px;
+    }
+    footer ul li {
+        width:20%;
     }
 }
 .right-menu_wrapper a {
@@ -262,9 +273,6 @@ footer ul {
     list-style:none;
     display:flex;
     flex-wrap:wrap;
-}
-footer ul li {
-    width:25%;
 }
 footer ul li a {
     text-decoration:none;
