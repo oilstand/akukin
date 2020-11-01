@@ -103,9 +103,10 @@ export default {
   },
   mounted() {
   },
-  head: {
-    script: [
-    ]
+  head() {
+    return {
+        title: '実績',
+    }
   }
 }
 </script>

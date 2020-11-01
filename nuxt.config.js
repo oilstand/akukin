@@ -15,7 +15,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: 'AKUKIN建設',
+    titleTemplate: '%s | AKUKIN建設',
     title: 'AKUKIN建設',
     htmlAttrs: {
       lang: 'ja',

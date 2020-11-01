@@ -87,9 +87,10 @@ export default {
   },
   mounted() {
   },
-  head: {
-    script: [
-    ]
+  head() {
+    return {
+        title: '採用情報',
+    }
   }
 }
 </script>

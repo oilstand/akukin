@@ -184,9 +184,11 @@ export default {
   },
   mounted() {
   },
-  head: {
-    script: [
-    ]
+  head() {
+    return {
+        title: '',
+        titleTemplate: 'AKUKIN建設',
+    }
   }
 }
 </script>

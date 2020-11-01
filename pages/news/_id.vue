@@ -125,6 +125,11 @@ export default {
           return this.news && this.news.contents
             ? this.news.contents:[{name:'npImage',data:{thumb:this.thumb}}];
       }
+  },
+  head() {
+    return {
+        title: this.title
+    }
   }
 }
 </script>

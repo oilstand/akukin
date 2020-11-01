@@ -119,9 +119,10 @@ export default {
   },
   mounted() {
   },
-  head: {
-    script: [
-    ]
+  head() {
+    return {
+        title: '会社情報',
+    }
   }
 }
 </script>

@@ -163,9 +163,10 @@ export default {
   },
   mounted() {
   },
-  head: {
-    script: [
-    ]
+  head() {
+    return {
+        title: '事業',
+    }
   }
 }
 </script>
