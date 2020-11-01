@@ -163,9 +163,16 @@ export default {
   async asyncData({ params }) {
 
     const a = await import(`~/posts/newsdats.json`)
-    let newsdats = a.default;
+    let newsdats = [];
+    let pickups = [];
+    for(let pick of a.default) {
+        if(newsdats.length < 4) {
+            newsdats.push(pick);
+            pickups.push(pick);
+        }
+    }
 
-    return {pickups:newsdats,news:newsdats};
+    return {pickups:pickups,news:newsdats};
   },
   data () {
     return {
