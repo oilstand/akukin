@@ -1,11 +1,16 @@
 <template>
     <div class="news_body_contents">
         <div class="news_description">
-            <p>AKUKIN建設は1月20日、ホロ村を上空から見渡すことのできる天空あくあラインをオープンしました</p>
+            <p>AKUKIN建設は10月31日、ハロウィンにトロッコ乗車型アトラクション「Horror Coaster」をあくあマリンシオン号近くにオープンしました。</p>
         </div>
         <div class="connect_videos">
             <h3>関連動画</h3>
-            <YouTubeIFrame vid="O6_2PqwYBC0"/>
+            <h4>1.建設(2020/10/24)</h4>
+            <YouTubeIFrame vid="r-kUBHFW5YM"/>
+            <h4>2.建設(2020/10/25)</h4>
+            <YouTubeIFrame vid="7vdop_hHaLE"/>
+            <h4>3.お披露目(2020/10/31)</h4>
+            <YouTubeIFrame vid="HnUsWAok_Lk"/>
         </div>
     </div>
 </template>

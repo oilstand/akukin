@@ -76,6 +76,7 @@ import Report20201027001 from '~/components/news/20201027001.vue'
 import Report20201004001 from '~/components/news/20201004001.vue'
 import Report20200121001 from '~/components/news/20200121001.vue'
 import Report20200120001 from '~/components/news/20200120001.vue'
+import Report20201031001 from '~/components/news/20201031001.vue'
 
 export default {
   async asyncData({ params }) {
@@ -98,7 +99,11 @@ export default {
     return {
     }
   },
-  components: {YouTubeIFrame,Report20201027001,npImage,Report20201004001,Report20200121001,Report20200120001},
+  components: {
+      YouTubeIFrame,        Report20201027001,  npImage,
+      Report20201004001,    Report20200121001,  Report20200120001,
+      Report20201031001
+  },
   methods: {
   },
   mounted() {
