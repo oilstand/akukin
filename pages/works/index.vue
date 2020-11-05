@@ -46,10 +46,6 @@
     }
 
 }
-.section_works {
-    text-align:center;
-    padding: 16px;
-}
 .section_works h2 {
     margin: 16px 0;
 }
