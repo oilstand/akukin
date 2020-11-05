@@ -21,11 +21,7 @@
     font-size: 1.6em;
     background-color: lightblue;
 }
-section {
-    text-align:center;
-    padding: 16px;
-}
-section h2, .works-visual h2 {
+.works-visual h2 {
     margin: 16px 0;
 }
 @media screen and (max-width:959px) {
@@ -50,12 +46,9 @@ section h2, .works-visual h2 {
     }
 
 }
-section {
+.section_works {
     text-align:center;
     padding: 16px;
-}
-section h2 {
-    margin: 16px 0;
 }
 .section_works h2 {
     margin: 16px 0;
@@ -78,9 +71,6 @@ section h2 {
     text-align:left;
     font-weight:normal;
     font-size:1em;
-}
-section p {
-    margin: 16px;
 }
 </style>
 <script>

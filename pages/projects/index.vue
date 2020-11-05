@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="projects">
         <div class="project-visual">
             <div class="project_edge"></div>
             <a class="project_view project_tenku" href="/projects#road"><div>天空地下交通事業</div></a>
@@ -120,15 +120,15 @@
     }
 
 }
-section {
+.projects section {
     text-align:center;
     padding: 16px;
 }
-section h2 {
+.projects section h2 {
     margin: 16px 0;
 }
 
-section p {
+.projects section p {
     margin: 16px;
 }
 
