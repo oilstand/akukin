@@ -5,8 +5,16 @@
         </div>
         <section class="section_works">
             <ul>
-                <li v-for="data in pickups" :key="data.url"><router-link :to="data.url"><img :src="data.thumb">
-                <h3>{{data.date}}<br>{{data.title}}</h3></router-link></li>
+                <li v-for="data in pickups" :key="data.url">
+                    <router-link v-if="data.url != '#'" :to="data.url">
+                        <img :src="data.thumb">
+                        <h3>{{data.date}}<br>{{data.title}}</h3>
+                    </router-link>
+                    <div v-else>
+                        <img :src="data.thumb">
+                        <h3>{{data.date}}<br>{{data.title}}</h3>
+                    </div>
+                </li>
             </ul>
         </section>
 
@@ -59,6 +67,14 @@
 .section_works ul li a {
     text-decoration:none;
     color:black;
+    display:block;
+}
+.section_works ul li a {
+    transition:background-color 0.4s;
+}
+.section_works ul li a:hover {
+    background-color:#ffecef;
+    transition:background-color 0.2s;
 }
 .section_works ul li img {
     width: 100%;
