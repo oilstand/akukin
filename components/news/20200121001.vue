@@ -5,7 +5,7 @@
         </div>
         <div class="connect_videos">
             <h3>関連動画</h3>
-            <YouTubeIFrame vid="O6_2PqwYBC0"/>
+            <YouTubeIFrame vid="x0Y_yoYivnM"/>
         </div>
     </div>
 </template>
