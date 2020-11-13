@@ -49,6 +49,7 @@
             <p>当サイトは非公式・非公認のネタサイトです。公式への問い合わせ等はご遠慮ください。</p>
         </div>
         <a href="#header" class="topButton">↑</a>
+        <a href="#" class="anchor_link">⚓</a>
     </footer>
   </div>
 </template>
@@ -295,6 +296,14 @@ footer ul li a {
     position:absolute;
     top:0;right:0;
 }
+.anchor_link {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    opacity: .3;
+}
 </style>
 
 <script>
@@ -308,7 +317,7 @@ export default {
             title: 'AKUKIN建設',
             meta: [
                 { hid: 'description', name: 'description', content: `AKUKIN建設` },
-                { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設' },
+                { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
                 { hid: 'og:site_name', property: 'og:site_name', content: 'AKUKIN建設' },
                 { hid: 'og:type', property: 'og:type', content: 'website' },
                 { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' + this.$nuxt.$route.path },
