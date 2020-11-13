@@ -26,7 +26,7 @@ export default {
       { 'http-equiv': 'content-language', content:'ja' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: `AKUKIN建設のコーポレートサイトです。` },
-        { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設' },
+        { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
         { hid: 'og:site_name', property: 'og:site_name', content: 'AKUKIN建設' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' },
