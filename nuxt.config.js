@@ -64,19 +64,14 @@ export default {
   */
   buildModules: [
     '@nuxt/typescript-build',
-    /*'@nuxtjs/google-analytics'
-    ['@nuxtjs/google-analytics', {id: 'G-QWJ6PVMT34'}]/**/
   ],
-/*  googleAnalytics: {
-    id: 'G-QWJ6PVMT34'
-  },*/
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
-    '@nuxtjs/gtm',/**/
+    '@nuxtjs/gtm',
   ],
   gtm: {
     id: 'GTM-WXZD9PP',
