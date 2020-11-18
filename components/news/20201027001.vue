@@ -45,10 +45,15 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 @media screen and (max-width:959px) {
     .news_description {
         padding: 16px 8px;
+    }
+}
+@media screen and (min-width:960px) {
+    .connect_videos {
+        width:80%;
     }
 }
 .top-video,
@@ -58,17 +63,14 @@ export default {
     margin:16px auto;
     text-align:left;
 }
-.connect_videos {
-    width:80%;
-}
 .news_body_contents h3 {
     margin: 16px 8px 8px 16px;
 }
-.news_body_contents ol {
+.news_description ol {
     padding-left: 2em;
     margin: 16px;
 }
-.news_body_contents li {
+.news_description li {
     margin:8px 0;
 }
 </style>
