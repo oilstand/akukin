@@ -66,7 +66,7 @@
                     <tr><th>休日休暇</th><td>要相談</td></tr>
                     <tr><th>給与</th><td>要相談</td></tr>
                     <tr><th>賞与</th><td>要相談（現物支給あり）</td></tr>
-                    <tr><th>福利厚生</th><td>社用エリトラ貸与</td></tr>
+                    <tr><th>福利厚生</th><td>社用エリトラ貸与、蒸かし芋・ベリーの支給有</td></tr>
                     <tr><th>諸手当</th><td></td></tr>
                     <tr><th>勤務地</th><td>ホロ鯖</td></tr>
                 </tbody>
