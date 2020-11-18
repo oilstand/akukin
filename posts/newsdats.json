@@ -1,4 +1,16 @@
 [
+    {"date":"2020年11月16日","url":"20201116001","label":"プレスリリース","title":"ホロ村の道路、鉄道の整備完了のお知らせ","thumb":"/img/news_road.png",
+        "contents":[
+            {"name":"npImage","data":{"thumb":"/img/news_road.png"}},
+            {"name":"Report20201116001"}
+        ]
+    },
+    {"date":"2020年11月13日","url":"20201113001","label":"プレスリリース","title":"『ホロライブ秋の大運動会2020』へ競技用エリトラを寄付いたしました","thumb":"/img/news_eritra.png",
+        "contents":[
+            {"name":"npImage","data":{"thumb":"/img/news_eritra.png"}},
+            {"name":"Report20201113001"}
+        ]
+    },
     {"date":"2020年10月31日","url":"20201031001","label":"プレスリリース","title":"ハロウィンに「Horror Coaster」をオープンしました","thumb":"/img/news_coaster.png",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_coaster.png"}},
