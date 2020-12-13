@@ -3,8 +3,8 @@
         <div class="project-visual">
             <div class="project_edge"></div>
             <a class="project_view project_tenku" href="/projects#road"><div>天空地下交通事業</div></a>
-            <a class="project_view project_becon" href="/projects#becon"><div>ビーコン事業</div></a>
-            <a class="project_view project_tour" href="/projects#tours"><div>観光施設事業</div></a>
+            <a class="project_view project_becon" href="/projects#becon"><div>公共施設事業</div></a>
+            <a class="project_view project_tour" href="/projects#tours"><div>観光事業</div></a>
             <div class="project_edge" style="width:10%;"></div>
         </div>
         <section id="road">
@@ -12,11 +12,12 @@
             <p>ホロ村地下に広がるアクアライン、ホロ村上空に広がる天空アクアラインをはじめとする交通関連施設の建設・運用・メンテナンスを行っています。</p>
         </section>
         <section id="becon">
-            <h2>ビーコン事業</h2>
+            <h2>公共施設事業</h2>
             <p>ホロ村周辺にビーコンの建造・メンテナンスを行いホロ村周辺の利便性向上を目指しています。</p>
+            <a v-if="false">&gt; もっと見る</a>
         </section>
         <section id="tours">
-            <h2>観光施設事業</h2>
+            <h2>観光事業</h2>
             <p>ホロ鯖の新しい観光名所の設置を目的として施設の建設を行っています。また、季節のイベントなどに向けた建造物の設置も行っています。</p>
         </section>
 
@@ -112,7 +113,7 @@
         transition: transform .3s ease-out;
     }
     .project-visual > .project_view:hover {
-        transform: translate3d(-100px, -480px, 0px) rotate3d(0, 0, 1, 45deg);
+        transform: translate3d(-30px, -480px, 0px) rotate3d(0, 0, 1, 45deg);
     }
     .project-visual > div > div, .project-visual > a > div {
         transform: rotate3d(0, 0, 1, -45deg);
