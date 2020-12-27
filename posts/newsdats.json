@@ -1,4 +1,9 @@
 [
+    {"date":"2020年12月26日","url":"20201226001","label":"プレスリリース","title":"SNS上で拡散されている情報について","thumb":"/img/news_honsya.png",
+        "contents":[
+            {"name":"Report20201226001"}
+        ]
+    },
     {"date":"2020年11月16日","url":"20201116001","label":"プレスリリース","title":"ホロ村の道路、鉄道の整備完了のお知らせ","thumb":"/img/news_road.png",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_road.png"}},
