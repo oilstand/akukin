@@ -31,7 +31,7 @@
                         </td>
                     </tr>
                     <tr><th>代表取締役社長</th><td>minatoaqua</td></tr>
-                    <tr><th>従業員数</th><td>1名（2020年10月時点）</td></tr>
+                    <tr><th>従業員数</th><td>10名（2020年12月時点）</td></tr>
                 </tbody>
             </table>
         </section>
@@ -87,22 +87,6 @@
 }
 .company-info li {
     padding: 4px 0;
-}
-.press_label {
-    color:white;
-    font-weight:300;
-    background-color:gray;
-    padding: 0 16px;
-}
-.news_head {
-    display:inline-block;
-    width:40%;
-    text-align:right;
-}
-.news_title {
-    display:inline-block;
-    margin-left:5%;
-    width:55%;
 }
 
 </style>
