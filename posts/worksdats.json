@@ -1,13 +1,17 @@
 [
+    {"date":"2020年12月17日","url":"#","label":"プレスリリース","title":"あてぃしハウス","thumb":"/img/work_ateshi.png"},
+    {"date":"2020年12月17日","url":"#","label":"プレスリリース","title":"地下帝国","thumb":"/img/work_underground2.png"},
     {"date":"2020年12月08日","url":"#","label":"プレスリリース","title":"地下帝国(建設中)","thumb":"/img/work_underground.png"},
     {"date":"2020年12月08日","url":"#","label":"プレスリリース","title":"原木半自動製造機","thumb":"/img/work_wood.png "},
     {"date":"2020年11月30日","url":"#","label":"プレスリリース","title":"ガーディアントラップ","thumb":"/img/work_guardian.png"},
     {"date":"2020年11月29日","url":"#","label":"プレスリリース","title":"自動サトウキビ畑","thumb":"/img/work_sugar2.png"},
     {"date":"2020年11月29日","url":"#","label":"プレスリリース","title":"自動火薬製造機","thumb":"/img/work_gunpowder.png"},
+    {"date":"2020年11月13日","url":"#","label":"プレスリリース","title":"筑前煮駅","thumb":"/img/work_station.png"},
     {"date":"2020年10月31日","url":"/news/20201031001","label":"プレスリリース","title":"Horror Coaster","thumb":"/img/work_coaster.png"},
     {"date":"2020年10月31日","url":"#","label":"プレスリリース","title":"ポーション自動販売機","thumb":"/img/work_potion.png"},
     {"date":"2020年10月4日","url":"/news/20201004001","label":"プレスリリース","title":"あくあマリンシオン号","thumb":"/work_ams.png"},
     {"date":"2020年10月13日","url":"#","label":"プレスリリース","title":"ホロ村第二ビーコン","thumb":"/work_becon.png"},
+    {"date":"2020年1月26日","url":"#","label":"プレスリリース","title":"ホロ村第一ビーコン","thumb":"/img/work_becon_first.png"},
     {"date":"2020年1月20日","url":"/news/20200121001","label":"プレスリリース","title":"天空あくあライン","thumb":"/work_tenku.png"},
     {"date":"2019年12月29日","url":"#","label":"プレスリリース","title":"ホロライブレジスタンスマンション（アジト）","thumb":"/img/work_holoresi.png"},
     {"date":"2019年11月23日","url":"#","label":"プレスリリース","title":"小麦自動収穫機","thumb":"/img/work_komugi.png"}
