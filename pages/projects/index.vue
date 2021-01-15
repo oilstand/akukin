@@ -2,23 +2,12 @@
     <div class="projects">
         <div class="project-visual">
             <div class="project_edge"></div>
-            <a class="project_view project_tenku" href="/projects#road"><div>天空地下交通事業</div></a>
-            <a class="project_view project_becon" href="/projects#becon"><div>公共施設事業</div></a>
-            <a class="project_view project_tour" href="/projects#tours"><div>観光事業</div></a>
-            <div class="project_edge" style="width:10%;"></div>
+            <a class="project_view project_tara" href="/projects#tara"><div>タラ事業</div></a>
+            <div class="project_edge"></div>
         </div>
-        <section id="road">
-            <h2>天空地下交通事業</h2>
-            <p>ホロ村地下に広がるアクアライン、ホロ村上空に広がる天空アクアラインをはじめとする交通関連施設の建設・運用・メンテナンスを行っています。</p>
-        </section>
-        <section id="becon">
-            <h2>公共施設事業</h2>
-            <p>ホロ村周辺にビーコンの建造・メンテナンスを行いホロ村周辺の利便性向上を目指しています。</p>
-            <a v-if="false">&gt; もっと見る</a>
-        </section>
-        <section id="tours">
-            <h2>観光事業</h2>
-            <p>ホロ鯖の新しい観光名所の設置を目的として施設の建設を行っています。また、季節のイベントなどに向けた建造物の設置も行っています。</p>
+        <section id="tara">
+            <h2>タラ事業</h2>
+            <p>ホロ鯖の食糧問題を解決するため、ガーディアントラップによるタラ漁を行っています。</p>
         </section>
 
     </div>
@@ -37,41 +26,35 @@
     background-color: lightpink;
 }
 .project-visual > .project_edge {
-    width: 15%;
+    width: 10%;
     height: calc(100% * 3);
     background-color:lightblue;
     line-height: calc(480px * 3);
-    transform: translate3d(0px, -480px, 0px) rotate3d(0, 0, 1, 45deg);
     overflow:hidden;
 }
 .project-visual > .project_view {
-    display:block;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     text-decoration:none;
     color:white;
     background-color:gray;
-}
-.project-visual > div > div, .project-visual > a > div {
-    display:block;
-    width:100%;
-    height:100%;
-    text-align:left;
+    font-weight:500;
+    font-size: 1.8em;
 }
 @media screen and (max-width:959px) {
     .project-visual {
-        height:300px;
+        height:100px;
         flex-wrap:wrap;
     }
     .project_tenku, .project_becon, .project_tour {
         background-size: 100% auto;
     }
-    .project_tenku {
-        background-image: url(/road_wide.png);
-    }
-    .project_becon {
-        background-image: url(/becon_wide.png);
-    }
-    .project_tour {
-        background-image: url(/tours_wide.png);
+    .project_tara {
+        background-image: url(~assets/project_tara.png);
+        background-position-x: center;
+        background-size: 100% auto;
+        background-position-y: center;
     }
 
     .project-visual > .project_edge {
@@ -89,35 +72,16 @@
     .project-visual {
         height:480px;
     }
-    .project_tenku {
-        background-image: url(/road.png);
-        background-position-x: -150px;
-        background-size: cover;
-    }
-    .project_becon {
-        background-position-x: -250px;
-        background-position-y: 220px;
-        background-size: cover;
-        background-image: url(/becon.png);
-    }
-    .project_tour {
-        background-size: cover;
-        background-image: url(/tours.png);
+    .project_tara {
+        background-image: url(~assets/project_tara.png);
+        background-position-x: center;
     }
     .project-visual > .project_view {
-        font-weight:500;
-        width: 20%;
-        height: calc(100% * 3);
-        line-height: calc(480px * 3);
-        transform: translate3d(0px, -480px, 0px) rotate3d(0, 0, 1, 45deg);
-        transition: transform .3s ease-out;
+        width: 60%;
     }
     .project-visual > .project_view:hover {
-        transform: translate3d(-30px, -480px, 0px) rotate3d(0, 0, 1, 45deg);
     }
     .project-visual > div > div, .project-visual > a > div {
-        transform: rotate3d(0, 0, 1, -45deg);
-        margin-left: 30px;
     }
 
 }

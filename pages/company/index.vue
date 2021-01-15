@@ -6,16 +6,14 @@
         <section class="company-info">
             <table>
                 <tbody>
-                    <tr><th>社名</th><td>AKUKIN建設</td></tr>
-                    <tr><th>英文表記</th><td>AKUKIN CONSTRUCTION CORP.</td></tr>
-                    <tr><th>所在地</th><td>ホロ鯖 ホロ村 あくあマリンシオン号正面</td></tr>
+                    <tr><th>社名</th><td>TARAKIN建設</td></tr>
+                    <tr><th>英文表記</th><td>TARAKIN SEAFOOD CORP.</td></tr>
+                    <tr><th>所在地</th><td>ガーディアントラップ</td></tr>
                     <tr><th>設立</th><td>2019年10月12日</td></tr>
                     <tr>
                         <th>資本金</th>
                         <td>
-                            <a target="_blank" href="https://www.youtube.com/watch?v=vlIfmO56pZQ">アクアマリン4つ
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" width="20px" height="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                            </a>
+                            タラ 4LC
                         </td>
                     </tr>
                     <tr>
@@ -23,10 +21,9 @@
                         <td>
                             <ol>
                                 <li>
-                                    道路、鉄道、補助施設(ビーコン)、観光施設の設計・施工。<br>
-                                    及び、これらに関するエンジニアリング・マネージメント。
+                                    ガーディアントラップを用いたタラの水揚げ<br>
+                                    及び、かまどを利用したタラの調理。
                                 </li>
-                                <li>ツールを用いた戦闘。及び、世界戦闘力のマネージメント。</li>
                             </ol>
                         </td>
                     </tr>
