@@ -133,23 +133,6 @@
     margin: 16px;
 }
 
-.press_label {
-    color:white;
-    font-weight:300;
-    background-color:gray;
-    padding: 0 16px;
-}
-.news_head {
-    display:inline-block;
-    width:40%;
-    text-align:right;
-}
-.news_title {
-    display:inline-block;
-    margin-left:5%;
-    width:55%;
-}
-
 </style>
 <script>
 export default {
