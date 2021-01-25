@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="main-visual">
-            Ch.MinatoAqua / AKUKIN CONSTRUCTION CORP.
+            Ch.MinatoAqua / TARAKIN SEAFOOD CORP.
         </div>
         <section class="section_news">
             <h2>ニュース</h2>
@@ -45,7 +45,7 @@
 @media screen and (max-width:959px) {
     .main-visual {
         font-size: 0.9em;
-        background-image: url(~assets/minecraft_sp.png);
+        background-image: url(~assets/campaign/tara/minecraft_sp.png);
         background-size: 100% auto;
     }
     .section_news ol {
@@ -85,7 +85,8 @@
 @media screen and (min-width:960px) {
     .main-visual {
         font-size: 1.6em;
-        background-image: url(~assets/minecraft.png);
+        background-image: url(~assets/campaign/tara/minecraft.png);
+        background-position-y: center;
     }
     .section_news ol {
         width:80%;
@@ -187,7 +188,7 @@ export default {
   head() {
     return {
         title: '',
-        titleTemplate: 'AKUKIN建設',
+        titleTemplate: 'TARAKIN建設',
     }
   }
 }

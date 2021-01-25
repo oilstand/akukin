@@ -5,8 +5,8 @@
         </div>
         <section class="section_brand-resource">
             <p>このページはAKUKIN建設が提供するサイトのアセットを正しく使用しコンテンツを表示するためのものです</p>
-            <img src="/logo.png">
-            <img src="~assets/logo120.png">
+            <img src="/logo_tara.png">
+            <img src="~assets/campaign/tara/logo120.png">
         </section>
     </div>
 </template>

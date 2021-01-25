@@ -8,9 +8,9 @@
     <header id="header">
         <h1>
             <router-link to="/">
-                <img class="logo_sp" src="~assets/logo42.png">
-                <img class="logo_pc" src="~assets/logo120.png">
-                <span>AKUKIN建設</span>
+                <img class="logo_sp" src="~assets/campaign/tara/logo42.png">
+                <img class="logo_pc" src="~assets/campaign/tara/logo120.png">
+                <span>TARAKIN建設</span>
             </router-link>
         </h1>
         <input type="checkbox" id="right-menu_check">
@@ -326,15 +326,15 @@ export default {
                 lang: 'ja',
                 prefix: 'og: http://ogp.me/ns#'
             },
-            title: 'AKUKIN建設',
+            title: 'TARAKIN建設',
             meta: [
-                { hid: 'description', name: 'description', content: `AKUKIN建設` },
-                { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
-                { hid: 'og:site_name', property: 'og:site_name', content: 'AKUKIN建設' },
+                { hid: 'description', name: 'description', content: `TARAKIN建設` },
+                { hid: 'keywords', name: 'keywords', content: 'TARAKIN建設,AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
+                { hid: 'og:site_name', property: 'og:site_name', content: 'TARAKIN建設' },
                 { hid: 'og:type', property: 'og:type', content: 'website' },
                 { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' + this.$nuxt.$route.path },
-                { hid: 'og:title', property: 'og:title', content: `AKUKIN建設` },
-                { hid: 'og:description', property: 'og:description', content: 'AKUKIN建設' },
+                { hid: 'og:title', property: 'og:title', content: `TARAKIN建設` },
+                { hid: 'og:description', property: 'og:description', content: 'TARAKIN建設' },
                 { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/logo.png' },
                 { name: 'twitter:card', content: 'summary' }
             ],

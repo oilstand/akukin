@@ -17,8 +17,8 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s | AKUKIN建設',
-    title: 'AKUKIN建設',
+    titleTemplate: '%s | TARAKIN建設',
+    title: 'TARAKIN建設',
     htmlAttrs: {
       lang: 'ja',
       prefix: 'og: http://ogp.me/ns#'
@@ -27,20 +27,20 @@ export default {
       { charset: 'utf-8' },
       { 'http-equiv': 'content-language', content:'ja' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: `AKUKIN建設のコーポレートサイトです。` },
-        { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
-        { hid: 'og:site_name', property: 'og:site_name', content: 'AKUKIN建設' },
+        { hid: 'description', name: 'description', content: `TARAKIN建設のコーポレートサイトです。` },
+        { hid: 'keywords', name: 'keywords', content: 'TARAKIN建設,AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
+        { hid: 'og:site_name', property: 'og:site_name', content: 'TARAKIN建設' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' },
-        { hid: 'og:title', property: 'og:title', content: `AKUKIN建設` },
-        { hid: 'og:description', property: 'og:description', content: 'AKUKIN建設' },
+        { hid: 'og:title', property: 'og:title', content: `TARAKIN建設` },
+        { hid: 'og:description', property: 'og:description', content: 'TARAKIN建設' },
         { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/logo.png' },
         { name: 'twitter:card', content: 'summary' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 /*      { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon-180x180.png' },*/
-      { rel: 'icon', type: 'image/png', href: '/icon.png' }
+      { rel: 'icon', type: 'image/png', href: '/icon_tara.png' }
     ],
     script: [
       { src: 'https://www.youtube.com/iframe_api' }
