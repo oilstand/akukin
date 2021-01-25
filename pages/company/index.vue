@@ -8,7 +8,7 @@
                 <tbody>
                     <tr><th>社名</th><td>AKUKIN建設</td></tr>
                     <tr><th>英文表記</th><td>AKUKIN CONSTRUCTION CORP.</td></tr>
-                    <tr><th>所在地</th><td>ホロ鯖 ホロ村 あくあマリンシオン号正面</td></tr>
+                    <tr><th>所在地</th><td>ホロ鯖 あくあマリンシオン号-地下帝国間 AKUKIN建設社屋</td></tr>
                     <tr><th>設立</th><td>2019年10月12日</td></tr>
                     <tr>
                         <th>資本金</th>
