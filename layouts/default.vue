@@ -8,7 +8,8 @@
     <header id="header">
         <h1>
             <router-link to="/">
-                <img src="~assets/logo120.png">
+                <img class="logo_sp" src="~assets/logo42.png">
+                <img class="logo_pc" src="~assets/logo120.png">
                 <span>AKUKIN建設</span>
             </router-link>
         </h1>
@@ -119,15 +120,18 @@ header h1 span {
         height:50px;
         padding: 8px 16px;
     }
+    .logo_pc {
+        display:none;
+    }
     header h1 a {
         line-height:50px;
     }
     header h1 img {
-        height: 32px;
-        top: calc((100% - 32px)/2);
+        height: 42px;
+        top: calc((100% - 42px)/2);
     }
     header h1 span {
-        padding-left:calc(32px + 8px);
+        padding-left:calc(42px + 8px);
         font-size:24px;
     }
     .right-menu_icon {
@@ -219,12 +223,15 @@ header h1 span {
     header h1 a {
         line-height:90px;
     }
+    .logo_sp {
+        display:none;
+    }
     header h1 img {
-        height: 45px;
-        top: calc((100% - 45px)/2);
+        height: 60px;
+        top: calc((100% - 60px)/2);
     }
     header h1 span {
-        padding-left:calc(45px + 16px);
+        padding-left:calc(60px + 16px);
     }
     .right-menu_icon {
         display:none;

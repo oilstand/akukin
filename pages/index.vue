@@ -45,7 +45,7 @@
 @media screen and (max-width:959px) {
     .main-visual {
         font-size: 0.9em;
-        background-image: url(/top.png);
+        background-image: url(~assets/minecraft_sp.png);
         background-size: 100% auto;
     }
     .section_news ol {
@@ -85,7 +85,7 @@
 @media screen and (min-width:960px) {
     .main-visual {
         font-size: 1.6em;
-        background-image: url(/minecraft.png?1029);
+        background-image: url(~assets/minecraft.png);
     }
     .section_news ol {
         width:80%;

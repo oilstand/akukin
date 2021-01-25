@@ -6,7 +6,7 @@
         <section class="section_brand-resource">
             <p>このページはAKUKIN建設が提供するサイトのアセットを正しく使用しコンテンツを表示するためのものです</p>
             <img src="/logo.png">
-            <img src="/logo120.png">
+            <img src="~assets/logo120.png">
         </section>
     </div>
 </template>
