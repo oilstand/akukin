@@ -1,5 +1,10 @@
 <template>
   <div class="main-body">
+    <div style="width:100%;height:2em;background-color:pink;text-align:center;line-height:2em;font-weight:bold;color:red;">
+        <router-link to="/news/20210124001" style="color:red;display: block;width: 100%;height: 100%;">
+            2021/01/25 18:00 JST 本社建築リレーを行います
+        </router-link>
+    </div>
     <header id="header">
         <h1>
             <router-link to="/">
