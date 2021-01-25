@@ -39,8 +39,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon-180x180.png' },
-      { rel: 'icon', type: 'image/png', href: '/icon-192x192.png' }
+/*      { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon-180x180.png' },*/
+      { rel: 'icon', type: 'image/png', href: '/icon.png' }
     ],
     script: [
       { src: 'https://www.youtube.com/iframe_api' }
