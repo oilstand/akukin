@@ -35,6 +35,7 @@
     }
     .news_body h2 {
         margin: 20px 0 8px 0;
+        font-size:1.3em;
     }
     .npimage {
         width:100%;
@@ -72,6 +73,7 @@
 <script>
 import YouTubeIFrame from '~/components/news/npYouTubeIFrame.vue'
 import npImage from '~/components/news/npImage.vue'
+import Report20210125001 from '~/components/news/20210125001.vue'
 import Report20210124001 from '~/components/news/20210124001.vue'
 import Report20201226001 from '~/components/news/20201226001.vue'
 import Report20201116001 from '~/components/news/20201116001.vue'
@@ -107,7 +109,7 @@ export default {
       YouTubeIFrame,        Report20201027001,  npImage,
       Report20201004001,    Report20200121001,  Report20200120001,
       Report20201031001,    Report20201113001,  Report20201116001,
-      Report20201226001,    Report20210124001
+      Report20201226001,    Report20210124001,  Report20210125001
   },
   methods: {
   },
