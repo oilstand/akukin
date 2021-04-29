@@ -1,9 +1,12 @@
 
 export default {
-  ssr: false/*true*/,
-  target: 'static',
+  ssr: true,
+//  target: 'static',
   generate: {
     routes: [
+        '/news/20210125001',
+        '/news/20210124001',
+        '/news/20201226001',
         '/news/20201116001',
         '/news/20201113001',
         '/news/20201031001',
@@ -43,7 +46,8 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/icon.png' }
     ],
     script: [
-      { src: 'https://www.youtube.com/iframe_api' }
+      { src: 'https://www.youtube.com/iframe_api' },
+      { src: '/mt.js' }
     ]
 
   },
@@ -60,6 +64,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/utils'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -78,7 +83,7 @@ export default {
   gtm: {
     id: 'GTM-WXZD9PP',
     pageTracking: true,
-    pageViewEventName: 'nuxtRoute',
+    /*pageViewEventName: 'nuxtRoute',*/
   },
   /*
   ** Build configuration

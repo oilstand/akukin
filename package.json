@@ -5,13 +5,16 @@
     "analyze": "nuxt build --analyze",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "export": "nuxt export"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@nuxtjs/gtm": "^2.3.2",
     "@nuxtjs/pwa": "^3.2.2",
-    "nuxt": "^2.14.6",
+    "crypto-js": "^4.0.0",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
     "@nuxt/types": "^2.14.7",
     "@nuxt/typescript-build": "^2.0.3"
   }
