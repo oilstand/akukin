@@ -86,21 +86,13 @@ import Report20200120001 from '~/components/news/20200120001.vue'
 import Report20201031001 from '~/components/news/20201031001.vue'
 
 export default {
-  async asyncData({ params }) {
+  async asyncData({ params, payload }) {
+    if(payload)return { news:payload };
 
-    const a = await import(`~/posts/newsdats.json`)
-    let ret = false;
-    let newsdats = a.default;
-    let e404 = {};
+    const a = await import(`~/posts/newsdats.json`);
+    let ret = a.default.find(report => report.url === params.id);
 
-    for(let news of newsdats) {
-        if(news.url === params.id) {
-            ret = news;
-            break;
-        }
-    }
-
-    return {news:ret};
+    return { news:ret };
   },
   data () {
     return {
@@ -137,7 +129,10 @@ export default {
   },
   head() {
     return {
-        title: this.title
+        title: this.title,
+        meta: [
+            { hid: 'og:title', property: 'og:title', content: `${this.title} | AKUKIN建設` },
+        ],
     }
   }
 }

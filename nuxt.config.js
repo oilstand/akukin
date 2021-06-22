@@ -1,21 +1,15 @@
+const fs = require('fs');
+const report_datas = JSON.parse(fs.readFileSync('posts/newsdats.json', 'utf8'));
 
 export default {
   ssr: false/*true*/,
   target: 'static',
   generate: {
-    routes: [
-        '/news/20210622001',
-        '/news/20210125001',
-        '/news/20210124001',
-        '/news/20201226001',
-        '/news/20201116001',
-        '/news/20201113001',
-        '/news/20201031001',
-        '/news/20201027001',
-        '/news/20201004001',
-        '/news/20200121001',
-        '/news/20200120001'
-    ]
+    routes() {
+        return [...report_datas.map((report) => {
+            return { route: '/news/'+report.url, payload: {test:'aiueo'}/*report*/ }
+        })];
+    }
   },
   /*
   ** Headers of the page
@@ -43,7 +37,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-/*      { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon-180x180.png' },*/
       { rel: 'icon', type: 'image/png', href: '/icon.png' }
     ],
     script: [
