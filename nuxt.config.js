@@ -4,6 +4,10 @@ export default {
   target: 'static',
   generate: {
     routes: [
+        '/news/20210622001',
+        '/news/20210125001',
+        '/news/20210124001',
+        '/news/20201226001',
         '/news/20201116001',
         '/news/20201113001',
         '/news/20201031001',
