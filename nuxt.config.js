@@ -29,13 +29,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: `AKUKIN建設のコーポレートサイトです。` },
         { hid: 'keywords', name: 'keywords', content: 'AKUKIN建設,アクキン建設,湊あくあ,AKUKIN,アクキン,akukin' },
-        { hid: 'og:site_name', property: 'og:site_name', content: 'AKUKIN建設' },
-        { hid: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:site_name', property: 'og:site_name', content: '【非公式】AKUKIN建設 コーポレートサイト' },
+        { hid: 'og:type', property: 'og:type', content: 'summary_large_image' },
         { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' },
         { hid: 'og:title', property: 'og:title', content: `AKUKIN建設` },
-        { hid: 'og:description', property: 'og:description', content: 'AKUKIN建設' },
-        { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/logo.png' },
-        { name: 'twitter:card', content: 'summary' }
+        { hid: 'og:description', property: 'og:description', content: 'AKUKIN建設の非公式コーポレートサイトです。' },
+        { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/akukin_ogp2.png' },
+        { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
