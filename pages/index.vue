@@ -86,6 +86,7 @@
     .main-visual {
         font-size: 1.6em;
         background-image: url(~assets/minecraft.png);
+        background-position-x: center;
     }
     .section_news ol {
         width:80%;
