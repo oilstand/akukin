@@ -150,6 +150,12 @@ export default {
   head() {
     return {
         title: '事業',
+        meta: [
+            { hid: 'description', name: 'description', content: `AKUKIN建設の事業紹介ページです。` },
+            { hid: 'og:title', property: 'og:title', content: `事業 | AKUKIN建設` },
+            { hid: 'og:description', property: 'og:description', content: "AKUKIN建設の事業紹介ページです。" },
+            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp/akukin_ogp2.png` },
+        ],
     }
   }
 }

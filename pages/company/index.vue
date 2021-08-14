@@ -106,6 +106,12 @@ export default {
   head() {
     return {
         title: '会社情報',
+        meta: [
+            { hid: 'description', name: 'description', content: `AKUKIN建設の会社情報です。` },
+            { hid: 'og:title', property: 'og:title', content: `会社情報 | AKUKIN建設` },
+            { hid: 'og:description', property: 'og:description', content: "AKUKIN建設の会社情報です。" },
+            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp/akukin_ogp2.png` },
+        ],
     }
   }
 }

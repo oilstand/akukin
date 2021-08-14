@@ -210,6 +210,12 @@ export default {
   head() {
     return {
         title: '採用情報',
+        meta: [
+            { hid: 'description', name: 'description', content: `AKUKIN建設の採用情報を掲載しています。` },
+            { hid: 'og:title', property: 'og:title', content: `採用情報 | AKUKIN建設` },
+            { hid: 'og:description', property: 'og:description', content: "AKUKIN建設の採用情報を掲載しています。" },
+            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp/akukin_ogp2.png` },
+        ],
     }
   }
 }

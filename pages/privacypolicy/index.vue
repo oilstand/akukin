@@ -59,6 +59,12 @@ export default {
   head() {
     return {
         title: 'プライバシーポリシー',
+        meta: [
+            { hid: 'description', name: 'description', content: `このサイトのプライバシーポリシーです。` },
+            { hid: 'og:title', property: 'og:title', content: `プライバシーポリシー | AKUKIN建設` },
+            { hid: 'og:description', property: 'og:description', content: "このサイトのプライバシーポリシーです。" },
+            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp/akukin_ogp2.png` },
+        ],
     }
   }
 }

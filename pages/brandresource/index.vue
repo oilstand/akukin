@@ -54,6 +54,12 @@ export default {
   head() {
     return {
         title: 'ブランドリソース',
+        meta: [
+            { hid: 'description', name: 'description', content: `AKUKIN建設のロゴなどをダウンロードできます。` },
+            { hid: 'og:title', property: 'og:title', content: `ブランドリソース | AKUKIN建設` },
+            { hid: 'og:description', property: 'og:description', content: "AKUKIN建設のロゴなどをダウンロードできます。" },
+            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp/akukin_ogp2.png` },
+        ],
     }
   }
 }
