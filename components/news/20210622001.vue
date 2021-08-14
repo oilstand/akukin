@@ -12,6 +12,23 @@
             <h4>2.【#うさ建夏祭り】「何が始まるんです？」「企画説明だ」【獅白ぼたん/ホロライブ】(2021/06/07)</h4>
             <p>Botan Ch.獅白ぼたん</p>
             <YouTubeIFrame vid="q_IXZIRCbwI" />
+
+            <h3>関連動画（追記）</h3>
+            <h4>3.【夏祭り】出稼ぎだ！やたいだ！ジャガイモだ？！【マイクラ】(2021/06/23)</h4>
+            <p>Mio Channel 大神ミオ</p>
+            <YouTubeIFrame vid="aY8V1iNvxMw" />
+
+            <h4>4.【Minecraft】ウサ建夏祭りに屋台出店！インキャのめざめワゴン【ホロライブ/宝鐘マリン】(2021/06/23)</h4>
+            <p>Marine Ch. 宝鐘マリン</p>
+            <YouTubeIFrame vid="h6OOFmGg8Yg" />
+
+            <h4>5.【Minecraft】AKUKIN建設にちょっぴり出勤！【雪花ラミィ/ホロライブ】(2021/06/23)</h4>
+            <p>Lamy Ch. 雪花ラミィ</p>
+            <YouTubeIFrame vid="-wxDmHqSGqE" />
+
+            <h4>6.【#うさ建ステージリレー】光るもの大好き！！！！光らせたい！【マイクラ】(2021/06/24)</h4>
+            <p>Mio Channel 大神ミオ</p>
+            <YouTubeIFrame vid="NljnHRzrJFY" />
         </div>
     </div>
 </template>
