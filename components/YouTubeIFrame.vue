@@ -39,9 +39,9 @@ export default {
     if(YT && YT.Player) {
         this.videoLoad(this.vid);
     } else {
-        window.onload = () =>{
+        window.addEventListener('load',() =>{
             this.videoLoad(this.vid);
-        };
+        });
     }
   }
 }
