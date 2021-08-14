@@ -1,60 +1,77 @@
 [
-    {"date":"2021年06月22日","url":"20210622001","label":"プレスリリース","title":"「うさ建夏祭り」出店のお知らせ","thumb":"/img/news_20210622.png",
+    {"date":"2021年08月14日","url":"20210814001","label":"プレスリリース","title":"AKUKIN建設、マップアート完成のお知らせ","thumb":"/img/news_20210814.png",
+        "desc":"AKUKIN建設は、以前より建設をしていたマップアートを完成させたことをお知らせします。マップアートはAKUKIN建設本社に掲示し、ほかのAKUKIN建設関連施設などにも掲示する予定です。",
+        "contents":[
+            {"name":"Report20210814001"}
+        ]
+    },
+    {"date":"2021年06月22日","url":"20210622001","label":"プレスリリース","title":"AKUKIN建設、「うさ建夏祭り」出店のお知らせ","thumb":"/img/news_20210622.png",
+        "desc":"AKUKIN建設は、Youtubeチャンネル「Mio Channel 大神ミオ」で行われた重役会議にて活動の再始動と、2021年6月27日に開催予定の「うさ建夏祭り」へ出店する事を発表いたしました。",
         "contents":[
             {"name":"Report20210622001"}
         ]
     },
     {"date":"2021年01月25日","url":"20210125001","label":"プレスリリース","title":"AKUKIN建設本社移転（新社屋完成）のお知らせ","thumb":"/img/news_honsya2021.png",
+        "desc":"AKUKIN建設は「本社建築リレー」で建築を進めていた新本社が竣工したことをお知らせいたします。竣工に伴い本社をアクアマリン号正面から旧社屋-地下帝国間AKUKIN建設新社屋へ移転しました。",
         "contents":[
             {"name":"Report20210125001"}
         ]
     },
     {"date":"2021年01月24日","url":"20210124001","label":"プレスリリース","title":"緊急株主総会実施のお知らせ","thumb":"/img/news_honsya.png",
+        "desc":"本日開催された緊急株主総会にて新企画「本社建築リレー」を発表いたしました。",
         "contents":[
             {"name":"Report20210124001"}
         ]
     },
     {"date":"2020年12月26日","url":"20201226001","label":"プレスリリース","title":"SNS上で拡散されている情報について","thumb":"/img/news_honsya.png",
+        "desc":"SNS上で弊社の給与がタラであるとの情報が拡散されています。現在、社内にて事実の確認作業を行っております。",
         "contents":[
             {"name":"Report20201226001"}
         ]
     },
     {"date":"2020年11月16日","url":"20201116001","label":"プレスリリース","title":"ホロ村の道路、鉄道の整備完了のお知らせ","thumb":"/img/news_road.png",
+        "desc":"AKUKIN建設はホロ村交通の利便性向上のため、ホロ村内に鉄道を敷設しました。また、よりよい景観実現のため道路を舗装し街灯を設置しました。",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_road.png"}},
             {"name":"Report20201116001"}
         ]
     },
     {"date":"2020年11月13日","url":"20201113001","label":"プレスリリース","title":"『ホロライブ秋の大運動会2020』へ競技用エリトラを寄付いたしました","thumb":"/img/news_eritra.png",
+        "desc":"AKUKIN建設はさくらみこ、大神ミオが主催する『ホロライブ秋の大運動会2020』の競技で利用するエリトラ1基を寄付いたしました。",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_eritra.png"}},
             {"name":"Report20201113001"}
         ]
     },
     {"date":"2020年10月31日","url":"20201031001","label":"プレスリリース","title":"ハロウィンに「Horror Coaster」をオープンしました","thumb":"/img/news_coaster.png",
+        "desc":"AKUKIN建設は10月31日、ハロウィンにトロッコ乗車型アトラクション「Horror Coaster」をあくあマリンシオン号近くにオープンしました。",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_coaster.png"}},
             {"name":"Report20201031001"}
         ]
     },
     {"date":"2020年10月27日","url":"20201027001","label":"プレスリリース","title":"第一回株主総会実施のお知らせ","thumb":"/img/news_honsya.png",
+        "desc":"本日緊急開催されたAKUKIN建設第１回株主総会において、下記のとおり報告及び決議されましたのでご報告申し上げます。",
         "contents":[
             {"name":"Report20201027001"}
         ]
     },
     {"date":"2020年10月4日","url":"20201004001","label":"プレスリリース","title":"ラブラブあくあマリンシオン号の進水式を実施","thumb":"/img/news_ams.png?1030",
+        "desc":"AKUKIN建設は10月4日、ホロ村のはずれにて「あくあマリンシオン号」の進水式を行いました。",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_ams.png?1030"}},
             {"name":"Report20201004001"}
         ]
     },
     {"date":"2020年1月21日","url":"20200121001","label":"プレスリリース","title":"天空あくあラインの第二フロアがオープン！","thumb":"/img/news_tenku.png?1030",
+        "desc":"AKUKIN建設は1月20日、ホロ村を上空から見渡すことのできる天空あくあラインに高度限界まで到達できる天空あくあライン第2フロアをオープンしました。",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_tenku.png?1030"}},
             {"name":"Report20200121001"}
         ]
     },
     {"date":"2020年1月20日","url":"20200120001","label":"プレスリリース","title":"ホロ村を一望できる天空あくあラインがオープン！","thumb":"/img/news_aqualine.png?1030",
+        "desc":"AKUKIN建設は1月20日、ホロ村を上空から見渡すことのできる天空あくあラインをオープンしました。",
         "contents":[
             {"name":"npImage","data":{"thumb":"/img/news_aqualine.png?1030"}},
             {"name":"Report20200120001"}

@@ -73,6 +73,7 @@
 <script>
 import YouTubeIFrame from '~/components/news/npYouTubeIFrame.vue'
 import npImage from '~/components/news/npImage.vue'
+import Report20210814001 from '~/components/news/20210814001.vue'
 import Report20210622001 from '~/components/news/20210622001.vue'
 import Report20210125001 from '~/components/news/20210125001.vue'
 import Report20210124001 from '~/components/news/20210124001.vue'
@@ -103,7 +104,7 @@ export default {
       Report20201004001,    Report20200121001,  Report20200120001,
       Report20201031001,    Report20201113001,  Report20201116001,
       Report20201226001,    Report20210124001,  Report20210125001,
-      Report20210622001
+      Report20210622001,    Report20210814001
   },
   methods: {
   },
@@ -122,6 +123,9 @@ export default {
       thumb() {
           return this.news ? this.news.thumb:'404';
       },
+      desc() {
+          return this.news ? this.news.desc:'404';
+      },
       contents() {
           return this.news && this.news.contents
             ? this.news.contents:[{name:'npImage',data:{thumb:this.thumb}}];
@@ -131,7 +135,10 @@ export default {
     return {
         title: this.title,
         meta: [
+            { hid: 'description', name: 'description', content: this.desc },
             { hid: 'og:title', property: 'og:title', content: `${this.title} | AKUKIN建設` },
+            { hid: 'og:description', property: 'og:description', content: this.desc },
+            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp${this.thumb}` },
         ],
     }
   }
