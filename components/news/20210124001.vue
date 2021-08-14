@@ -2,7 +2,7 @@
     <div class="news_body_contents">
         <div class="top-video"><YouTubeIFrame vid="SECC3_aiZWc"/></div>
         <div class="news_description">
-            <p>本日開催された緊急株主総会にて新企画「本社建築リレー」を発表いたしました</p>
+            <p>本日開催された緊急株主総会にて新企画「本社建築リレー」を発表いたしました。</p>
             <h3>報告事項</h3>
             <ol>
                 <li>2021/01/25 に「本社建築リレー」を開催します</li>

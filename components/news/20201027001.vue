@@ -2,7 +2,7 @@
     <div class="news_body_contents">
         <div class="top-video"><YouTubeIFrame vid="F-qrv79PRao"/></div>
         <div class="news_description">
-            <p>本日緊急開催されたAKUKIN建設第１回株主総会において、下記のとおり報告及び決議されましたのでご報告申し上げます</p>
+            <p>本日緊急開催されたAKUKIN建設第１回株主総会において、下記のとおり報告及び決議されましたのでご報告申し上げます。</p>
             <h3>報告事項</h3>
             <ol>
                 <li>AKUKIN建設社員の1名が他社に引き抜かれたこと</li>

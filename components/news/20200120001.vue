@@ -1,7 +1,7 @@
 <template>
     <div class="news_body_contents">
         <div class="news_description">
-            <p>AKUKIN建設は1月20日、ホロ村を上空から見渡すことのできる天空あくあラインをオープンしました</p>
+            <p>AKUKIN建設は1月20日、ホロ村を上空から見渡すことのできる天空あくあラインをオープンしました。</p>
         </div>
         <div class="connect_videos">
             <h3>関連動画</h3>
