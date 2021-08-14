@@ -30,8 +30,41 @@
                             </ol>
                         </td>
                     </tr>
-                    <tr><th>代表取締役社長</th><td>minatoaqua</td></tr>
-                    <tr><th>従業員数</th><td>10名（2020年12月時点）</td></tr>
+                    <tr>
+                        <th>代表取締役社長</th>
+                        <td>
+                            <a href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg" target="_blank">minatoaqua</a><br>
+                            <a href="https://twitter.com/minatoaqua" target="_blank">Twitter</a>
+                        </td>
+                    </tr>
+                    <tr class="stuff">
+                        <th>従業員数</th>
+                        <td>
+                            10名（2021年8月時点）<br>
+                            <div>
+                                <h4>従業員リスト（順不同）</h4>
+                                <ul>
+                                    <li><a href="https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg" target="_blank">大神ミオ</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg" target="_blank">宝鐘マリン</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw" target="_blank">雪花ラミィ</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw" target="_blank">夜空メル</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCZlDXzGoo7d44bwdNObFacg" target="_blank">天音かなた</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UC1suqwovbL1kzsoaZgFZLKg" target="_blank">癒月ちょこ</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg" target="_blank">Airani Iofifteen</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCAWSyEs_Io8MtpY3m-zqILA" target="_blank">桃鈴ねね</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCFTLzh12_nrtzqBPsTCqenA" target="_blank">アキロゼ</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g" target="_blank">ロボ子さん</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>派遣・アルバイト（順不同）</h4>
+                                <ul>
+                                    <li><a href="https://www.youtube.com/channel/UCvInZx9h3jC2JzsIzoOebWg" target="_blank">不知火フレア（派遣・狩り仲間）</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCXTpFs_3PqI41qX2d9tL2Rw" target="_blank">紫咲シオン（炎上アルバイト）</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </section>
@@ -87,6 +120,13 @@
 }
 .company-info li {
     padding: 4px 0;
+}
+
+.stuff ul {
+    padding:4px 16px;
+}
+.stuff dev {
+    margin:4px 0;
 }
 
 </style>
