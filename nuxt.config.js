@@ -2,8 +2,8 @@ const fs = require('fs');
 const report_datas = JSON.parse(fs.readFileSync('posts/newsdats.json', 'utf8'));
 
 export default {
-  ssr: false/*true*/,
-  target: 'static',
+  ssr: true,
+  //target: 'static',
   generate: {
     routes() {
         return [...report_datas.map((report) => {

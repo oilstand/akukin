@@ -5,14 +5,17 @@
     "analyze": "nuxt build --analyze",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev-start": "nuxt start --port 4444",
+    "generate": "nuxt generate",
+    "export": "nuxt export"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "nuxt": "^2.15.7"
+  },
   "devDependencies": {
-    "@nuxtjs/gtm": "^2.3.2",
-    "@nuxtjs/pwa": "^3.2.2",
-    "nuxt": "^2.14.6",
-    "@nuxt/types": "^2.14.7",
-    "@nuxt/typescript-build": "^2.0.3"
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0"
   }
 }
