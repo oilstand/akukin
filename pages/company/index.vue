@@ -33,8 +33,8 @@
                     <tr>
                         <th>代表取締役社長</th>
                         <td>
-                            <a href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg" target="_blank">minatoaqua</a><br>
-                            <a href="https://twitter.com/minatoaqua" target="_blank">Twitter</a>
+                            <a href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg" target="_blank">minatoaqua</a>
+                            （<a href="https://twitter.com/minatoaqua" target="_blank">Twitter</a>）
                         </td>
                     </tr>
                     <tr class="stuff">
