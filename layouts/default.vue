@@ -52,7 +52,8 @@
                 <li class="longtype"><router-link to="/brandresource">ブランドリソース</router-link></li>
                 <li class="longtype"><router-link to="/privacypolicy">プライバシーポリシー</router-link></li>
             </ul>
-            <p>当サイトは非公式・非公認のネタサイトです。公式への問い合わせ等はご遠慮ください。</p>
+            <p>当サイトは非公式・非公認のネタサイトです。公式への問い合わせ等はご遠慮ください。<br>
+            ロゴは雨々(ゆーやん) <a href="https://twitter.com/uu0604" target="_blank">@uu0604</a>さんのファンアートをお借りしています</p>
         </div>
         <a href="#header" class="topButton">↑</a>
         <a href="#" class="anchor_link">⚓</a>
