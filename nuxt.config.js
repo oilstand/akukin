@@ -32,12 +32,11 @@ export default {
         { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' },
         { hid: 'og:title', property: 'og:title', content: `AKUKIN建設` },
         { hid: 'og:description', property: 'og:description', content: 'AKUKIN建設の非公式コーポレートサイトです。' },
-        { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/akukin_ogp2.png' },
+        { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/akukin_ogp3.png' },
         { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'icon', type: 'image/png', href: '/icon.png' }
+        { rel: 'icon', type: 'image/png', href: '/logo_2.png' }
     ],
     script: [
       { src: 'https://www.youtube.com/iframe_api' }

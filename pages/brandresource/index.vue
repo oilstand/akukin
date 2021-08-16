@@ -5,8 +5,17 @@
         </div>
         <section class="section_brand-resource">
             <p>このページはAKUKIN建設が提供するサイトのアセットを正しく使用しコンテンツを表示するためのものです</p>
+
+            <h4 style="margin-top:16px;">AKUKIN建設ロゴについて</h4>
+            <p>雨々(ゆーやん) <a href="https://twitter.com/uu0604" target="_blank">@uu0604</a>さんのファンアートをお借りしています</p>
+            <img src="/logo_2.png">
+            <img src="~assets/logo120_2.png">
+            <img src="/akukin_ogp3.png">
+
+            <h4>旧ロゴ</h4>
             <img src="/logo.png">
             <img src="~assets/logo120.png">
+            <img src="/akukin_ogp2.png">
         </section>
     </div>
 </template>
@@ -58,7 +67,6 @@ export default {
             { hid: 'description', name: 'description', content: `AKUKIN建設のロゴなどをダウンロードできます。` },
             { hid: 'og:title', property: 'og:title', content: `ブランドリソース | AKUKIN建設` },
             { hid: 'og:description', property: 'og:description', content: "AKUKIN建設のロゴなどをダウンロードできます。" },
-            { hid: 'og:image', property: 'og:image', content: `https://akukin.jp/akukin_ogp2.png` },
         ],
     }
   }

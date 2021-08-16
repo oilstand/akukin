@@ -8,8 +8,8 @@
     <header id="header">
         <h1>
             <router-link to="/">
-                <img class="logo_sp" src="~assets/logo42.png">
-                <img class="logo_pc" src="~assets/logo120.png">
+                <img class="logo_sp" src="/logo_2.png">
+                <img class="logo_pc" src="~assets/logo120_2.png">
                 <span>AKUKIN建設</span>
             </router-link>
         </h1>
@@ -127,8 +127,8 @@ header h1 span {
         line-height:50px;
     }
     header h1 img {
-        height: 42px;
-        top: calc((100% - 42px)/2);
+        height: 50px;
+        top: calc((100% - 50px)/2);
     }
     header h1 span {
         padding-left:calc(42px + 8px);
@@ -227,8 +227,8 @@ header h1 span {
         display:none;
     }
     header h1 img {
-        height: 60px;
-        top: calc((100% - 60px)/2);
+        height: 75px;
+        top: calc((100% - 75px)/2);
     }
     header h1 span {
         padding-left:calc(60px + 16px);
@@ -335,7 +335,6 @@ export default {
                 { hid: 'og:url', property: 'og:url', content: 'https://akukin.jp' + this.$nuxt.$route.path },
                 { hid: 'og:title', property: 'og:title', content: `AKUKIN建設 コーポレートサイト` },
                 { hid: 'og:description', property: 'og:description', content: 'AKUKIN建設の非公式コーポレートサイトです。' },
-                { hid: 'og:image', property: 'og:image', content: 'https://akukin.jp/akukin_ogp2.png' },
                 { name: 'twitter:card', content: 'summary_large_image' }
             ],
       }
